@@ -1,0 +1,33 @@
+{
+  "name": "lobodogreen-api",
+  "version": "1.0.0",
+  "description": "API completa LoboDoGreen para obter jogos de todas as confederações e transmissões ao vivo.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "API",
+    "futebol",
+    "live",
+    "LoboDoGreen"
+  ],
+  "author": "Vitor Code",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

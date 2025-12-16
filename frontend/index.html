@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lobo Do Green — Jogos ao Vivo 🔥⚽</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0f1624;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    header {
+      background: #1ea7ff;
+      padding: 18px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    #container {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    button {
+      background: #1ea7ff;
+      padding: 12px 18px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #fff;
+      transition: 0.2s;
+      margin-bottom: 20px;
+    }
+
+    button:hover {
+      background: #1086d6;
+    }
+
+    /* 🔹 ABAS DE ODDs */
+    .tabs-odds {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      background: #142033;
+      border: 1px solid #1ea7ff;
+      padding: 8px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .tab.active {
+      background: #1ea7ff;
+      color: #000;
+    }
+
+    /* 🔹 CARD DO JOGO */
+    .card {
+      background: #142033;
+      padding: 16px;
+      margin-bottom: 14px;
+      border-radius: 14px;
+      box-shadow: 0 0 12px #00000060;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.2s;
+      border-left: 5px solid #1ea7ff;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      background: #1b2c46;
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    .teams {
+      font-size: 18px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    .league {
+      font-size: 13px;
+      color: #c2c2c2;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .score {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .source {
+      font-size: 13px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      background: #1ea7ff33;
+      border: 1px solid #1ea7ff;
+      margin-top: 6px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>Lobo Do Green — Jogos ao Vivo 🔥⚽</header>
+
+  <div id="container">
+
+    <button id="btn-atualizar">🔄 Atualizar Dados</button>
+
+    <!-- 🔥 ABAS DE ODDs (%) -->
+    <div class="tabs-odds">
+      <button class="tab active" data-aba="semana">🔥 Todas</button>
+      <button class="tab" data-aba="ao-vivo">🟢 70%+</button>
+      <button class="tab" data-aba="dia">🟡 60–69%</button>
+      <button class="tab" data-aba="livre">⚪ Livre</button>
+    </div>
+
+    <!-- 🔹 LISTA DE JOGOS -->
+    <div id="lista-jogos">
+      <p>Carregando jogos...</p>
+    </div>
+
+  </div>
+
+  <script type="module" src="/main.js"></script>
+
+</body>
+</html>
