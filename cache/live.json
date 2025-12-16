@@ -1,0 +1,69 @@
+{
+  "timestamp": 1765494743995,
+  "data": [
+    {
+      "home": "CDT Real Oruro",
+      "away": "Nacional Potosí",
+      "score": "1 - 2",
+      "date": "2025-12-11T21:30:00.000Z",
+      "league": "División Profesional",
+      "source": "Sofascore"
+    },
+    {
+      "home": "Vélez Sarsfield Reserve",
+      "away": "Boca Juniors Reserve",
+      "score": "0 - 0",
+      "date": "2025-12-11T23:00:00.000Z",
+      "league": "Trofeo de Campeones, Reserves",
+      "source": "Sofascore"
+    },
+    {
+      "home": "Vasco da Gama",
+      "away": "Fluminense",
+      "score": "0 - 0",
+      "date": "2025-12-11T23:00:00.000Z",
+      "league": "Copa Betano do Brasil",
+      "source": "Sofascore"
+    },
+    {
+      "home": "Piduye",
+      "away": "Iquique Glorioso",
+      "score": "0 - 0",
+      "date": "2025-12-11T23:00:22.000Z",
+      "league": "Primera División Senior",
+      "source": "Sofascore"
+    },
+    {
+      "home": "Scratch (JR)",
+      "away": "CAJM (JR)",
+      "score": "0 - 0",
+      "date": "2025-12-11T23:00:01.000Z",
+      "league": "Primera División Fútbol Junior",
+      "source": "Sofascore"
+    },
+    {
+      "home": "Molynes United FC",
+      "away": "Cavalier FC",
+      "score": "1 - 0",
+      "date": "2025-12-11T22:00:00.000Z",
+      "league": "Premier League",
+      "source": "Sofascore"
+    },
+    {
+      "home": "Mantab United",
+      "away": "Conaree Fireball International FC",
+      "score": "1 - 0",
+      "date": "2025-12-11T22:00:00.000Z",
+      "league": "SKNFA Division 1",
+      "source": "Sofascore"
+    },
+    {
+      "home": "Washburn Ichabods",
+      "away": "Franklin Pierce Ravens",
+      "score": "0 - 0",
+      "date": "2025-12-11T22:00:00.000Z",
+      "league": "NCAA Women, Division II National Championship",
+      "source": "Sofascore"
+    }
+  ]
+}
