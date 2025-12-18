@@ -2,8 +2,13 @@ import express from "express";
 
 const router = express.Router();
 
+// GET /api/jogos
 router.get("/", (req, res) => {
-  res.json({ status: "matches routes OK" });
+  res.json({
+    source: "mock",
+    jogos: [],
+    message: "Jogos carregados com sucesso"
+  });
 });
 
 export default router;

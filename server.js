@@ -1,8 +1,9 @@
-// backend/server.js
 import app from "./app.js";
 
-const PORT = 3000;
+console.log("🚀 SERVER.JS INICIADO");
+
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`🚀 API do DODÔ rodando em http://localhost:${PORT}`);
+  console.log(`✅ ESCUTANDO NA PORTA ${PORT}`);
 });
