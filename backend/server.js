@@ -1,9 +1,7 @@
 import app from "./app.js";
 
-console.log("🚀 SERVER.JS INICIADO");
-
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`✅ ESCUTANDO NA PORTA ${PORT}`);
+  console.log(`🚀 Servidor rodando na porta ${PORT}`);
 });

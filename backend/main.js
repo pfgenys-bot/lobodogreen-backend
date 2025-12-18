@@ -14,6 +14,7 @@ import gamesRoutes from "./routes/games.js";
 import adminOddsRoutes from "./routes/adminOdds.js";
 import paymentsRoutes from "./routes/paymentsRoutes.js";
 import protectedLinksRoutes from "./routes/protectedLinks.js";
+import oddsRoutes from "./routes/odds.routes.js"; // ✅
 
 // ==========================
 // CONFIG
@@ -37,7 +38,7 @@ app.get("/", (req, res) => {
   res.json({
     status: "online",
     api: "API Futebol",
-    version: "1.0.0",
+    version: "1.1.0",
     author: "Vitor Code"
   });
 });
@@ -47,6 +48,7 @@ app.get("/", (req, res) => {
 // ==========================
 app.use("/api/games", gamesRoutes);
 app.use("/api/admin/odds", adminOddsRoutes);
+app.use("/api/odds", oddsRoutes); // ✅
 app.use("/api/payments", paymentsRoutes);
 app.use("/api/protected", protectedLinksRoutes);
 
