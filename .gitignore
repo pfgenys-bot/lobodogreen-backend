@@ -1,4 +1,21 @@
+# Node
 node_modules/
-.env
 npm-debug.log*
-package-lock.json
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+
+# Database
+*.sqlite
+*.db
+
+# Cache
+cache/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
