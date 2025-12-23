@@ -4,8 +4,7 @@ app = "lobodogreen-backend"
 primary_region = "gru"
 
 [build]
-  builder = "paketobuildpacks/builder:base"
-
+ 
 [env]
   NODE_ENV = "production"
 
