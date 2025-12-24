@@ -17,6 +17,8 @@ import mpWebhook from "./services/payments/webhook.js";
 
 const app = express();
 
+app.set("trust proxy", 1);
+
 // Middlewares globais
 app.use(cors());
 app.use(express.json());
